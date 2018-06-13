@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         greenSlider.value = 0
         blueSlider.value = 0
         
-        // MARK: - call to set the color when view loads
-        chooseColor()
+        //MARK: - Set the UIView with default color
+        colorView.backgroundColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
     }
 
     //MARK:- Function to set the color
